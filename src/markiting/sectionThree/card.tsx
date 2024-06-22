@@ -1,4 +1,4 @@
-import { Check, CircleCheckBig } from "lucide-react";
+import { CircleCheckBig } from "lucide-react";
 
 type Props = {
   description: string;
