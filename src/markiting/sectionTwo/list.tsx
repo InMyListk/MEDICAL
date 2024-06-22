@@ -1,12 +1,10 @@
 import { Card } from "./card";
-import Fade from "react-reveal";
 export const List = () => {
   return (
     <div
       className="flex flex-wrap justify-center gap-x-8
      gap-y-14"
     >
-      <Fade duration="3500">
         <Card
           title="امراض عصبية"
           color={"bg-green-100"}
@@ -39,7 +37,6 @@ export const List = () => {
           icon="./otoscope.png"
           iconColor="bg-blue-100"
         />
-      </Fade>
     </div>
   );
 };
