@@ -1,5 +1,3 @@
-import React from "react";
-
 export const SectionFive = () => {
   return (
     <div className="w-full relative lg:top-[600px] md:top-[300px] sm:top-[200px] top-[150px] -z-10">
